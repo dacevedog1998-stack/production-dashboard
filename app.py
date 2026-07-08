@@ -25,7 +25,7 @@ df = pd.read_csv(file)
 # ----------------------------
 mask = (
     df["Line"].str.contains("Units Made", case=False, na=False) &
-    ~df["Product"].str.contains(r"Break|changeover|\[", case=False, na=False)
+    ~df["Product"].str.contains(r"Break|changeover|\[|cleaning", case=False, na=False)
 )
 
 df = df.loc[mask].copy()
