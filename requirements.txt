@@ -1,5 +1,6 @@
-streamlit
+streamlit>=1.36
 pandas
 numpy
 openpyxl
 Pillow
+psycopg[binary]
