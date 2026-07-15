@@ -281,10 +281,10 @@ st.dataframe(
             "Yield %",
             format="%.2f%%",
         ),
-        "Last Updated": st.column_config.DatetimeColumn(
-            "Last Updated",
-            format="DD/MM/YYYY HH:mm",
-        ),
+        # "Last Updated": st.column_config.DatetimeColumn(
+        #     "Last Updated",
+        #     format="DD/MM/YYYY HH:mm",
+        # ),
     },
 )
 
