@@ -222,8 +222,8 @@ display_report = filtered[
         "avg_est_run_rate",
         "avg_actual_run_rate",
         "yield_percentage",
-        "source_report",
-        "updated_at",
+        # "source_report",
+        # "updated_at",
     ]
 ].copy()
 
@@ -247,8 +247,8 @@ display_report = display_report.rename(
         "avg_est_run_rate": "Avg Expected Run Rate",
         "avg_actual_run_rate": "Avg Actual Run Rate",
         "yield_percentage": "Yield %",
-        "source_report": "Source Report",
-        "updated_at": "Last Updated",
+        # "source_report": "Source Report",
+        # "updated_at": "Last Updated",
     }
 )
 
